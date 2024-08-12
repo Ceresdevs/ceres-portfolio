@@ -1,0 +1,418 @@
+body {
+   font-family: 'Space Mono', monospace;
+    margin: 0;
+}
+
+.logo h3 {
+    font-family: "Space Mono", monospace;
+}
+
+.logo a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+}
+
+
+
+/*!Navbar**********************/
+header {
+    background-color: #eeeeee;
+    padding: 1.3em;
+    display: flex;
+    box-shadow: 10px 10px 20px rgba(30, 30, 30, 0.2);  
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    opacity: .9;
+}
+
+.container {
+    margin: 0 auto;
+   /* border: 2px solid green;*/
+   background-color: #D2D2D2;
+}
+
+.home-section {
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-around;
+    background-color: #E6E6E6;
+    margin-bottom: 10px;
+}
+
+nav {
+    width: 50%;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 4px 6px;
+    transition: ease .3s;
+}
+
+/*Todo: Pending focus function*/
+nav a:hover, nav a:focus   {
+    color: #686D76;
+    cursor: pointer;
+    transition: .3s;
+    background-color: #dedede;
+}
+
+/*!navbar end******************************/
+
+
+/*! Side section***************************/
+.side-section {
+    width: 22em;
+    height: 36.5rem;
+    background-color: #eeeeee;
+    margin-top:7.5em;
+    box-shadow: 10px 10px 20px rgba(30, 30, 30, .2);  
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 60%;
+  /*  border: 2px solid magenta;*/
+    margin: 0 auto;
+}
+
+
+.profile-img {
+    width:60%;
+    padding-top: 10px;
+}
+
+.profile-img img {
+    width: 100%;
+    border-radius: 50%;
+   
+}
+
+.name {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.3em;
+    font-family: "Space Mono", monospace;
+
+}
+.description {
+    text-align: center;
+    margin: 0;
+    color: #686D76;
+}
+
+.contact-info {
+    margin-top: 10px;
+    color: #686D76;
+    line-height: .4;
+}
+
+hr {
+    border: 1px solid #686D76;
+    width: 100%;
+}
+
+.contact-info a {
+    color: #686D76;
+    text-decoration: none;
+}
+
+.contact-info a:active, .contact-info a:hover {
+    color: #6EACDA;
+}
+
+.contact-info img {
+    width: 5%;
+}
+.socials {
+    text-align: center;
+    margin-top: 1em;
+   /* border: 2px solid magenta;*/
+    background-color: #dedede;
+    opacity: .8;
+    border-radius: 4px;
+    box-shadow: 10px 10px 10px rgba(36, 36, 36, 0.2); 
+}
+.socials img {
+    width: 8%;
+    padding: .5em;
+    transition: ease .3s;
+}
+
+.socials img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+/*!end of side-section******************/
+.main-section {
+    width: 70%;
+    height: 35rem;
+    margin-top:7.5em;
+    background-color: #eee;
+    padding: 10px;
+   /* border: 2px solid magenta;*/
+   
+}
+
+.main-header {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 30px; 
+    border: 1px solid #686D76;
+    border-radius: 4px;
+    padding-left: 1.1em;
+   
+}
+
+.main-header li {
+    font-style: .4em;
+    line-height: 1.3;
+}
+
+.readme {
+    padding: 0 4px;
+    font-weight: 400;
+}
+
+.read {
+    font-weight: 450;
+}
+
+.md {
+    color: #686D76;
+}
+
+.language-tools {
+    width: 80%;
+    margin: 0 auto;
+   /* border: 2px solid #686D76;*/
+    margin-top: 2.5em
+}
+
+.stack {
+   /* border: 2px solid magenta;*/
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+.row-1 {
+    flex-flow: wrap;
+}
+.box {
+    width: 15%;
+ /*   border: 2px solid magenta;*/
+    border-radius: 1.1em;
+    transition: ease .3s;
+    text-align: center;
+}
+
+.box:hover{
+    transform: scale(1.1);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.box img {
+    width: 50%;
+    padding-top: 4px;
+}
+
+.tech-name {
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.project-section {
+    margin: 0 auto;
+    width: 95%;
+    height: 100vh;
+    border: 2px solid magenta;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.project-section h2 {
+    padding: 15px;
+    width: 20%;
+    text-align: center;
+    font-size: 1.2em;
+}
+.projects {
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-section {
+    margin: 0 auto;
+    width: 95%;
+    height: 100vh;
+    border: 1px solid magenta;
+    background-color: #fff;
+
+}
+
+.about {
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.about-section h2 {
+    padding: 15px;
+    width: 20%;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.contact-section {
+    margin: 0 auto;
+    width: 95%;
+    height: 100vh;
+    border: 1px solid magenta;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #E6E6E6;
+    border-radius: 4px;
+    
+}
+
+.contact h3 {
+    font-size: 1.5rem;
+}
+
+.contact input {
+    padding: 1em;
+    margin-bottom: 2em;
+    border-radius: 4px;
+    width: 30%;
+    border: 2px solid #686D76;
+} 
+
+.contact .message {
+    width: 70%;
+    padding-bottom: 15%;
+}
+
+@media screen and (max-width:768px)
+{ 
+    .container {
+        background-color: #fff;
+    }
+    .home-section {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav {
+        width: 90%;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    header {
+        height: 2em;
+    }
+    .side-section {
+        width:100%;
+        height: auto;
+        padding-bottom: 1em;
+    }
+
+    .profile-section {
+        width: 100%;
+    }
+
+
+    .socials {
+        width: 100%;
+        margin: 0;
+    }
+    .main-section {
+        width: 100%;
+        margin: 0;
+        height: auto;
+    }
+    .main-header {
+        margin: 0;
+        padding: 0;
+        
+        width: 100%;
+    }
+    .main-header li {
+        padding: 0;
+        margin: 0;
+    }
+
+    .box h3{
+        padding: 0;
+        margin: 0;
+    }
+    .language-tools {
+       width: 100%;
+       font-size: .9rem;
+    }
+
+    .contact-section {
+        flex-direction: column;
+        height: auto;
+    }
+    .contact {
+        width:100%;
+        align-items: start;
+    }
+
+    .contact input {
+        width:80%;
+    }
+
+    .contact .message {
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+
+
