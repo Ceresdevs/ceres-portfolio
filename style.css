@@ -27,6 +27,8 @@ header {
     opacity: .9;
 }
 
+
+
 .container {
     margin: 0 auto;
    /* border: 2px solid green;*/
@@ -333,6 +335,10 @@ hr {
 
 @media screen and (max-width:768px)
 { 
+
+    nav {
+        display: none;
+    }
     .container {
         background-color: #fff;
     }
